@@ -6,17 +6,36 @@
 schema, then double-checks the numbers itself: line totals, subtotal, tax and grand total. Anything that
 doesn't add up is marked **REVIEW** with a plain-English reason, so a person only looks at the invoices that need it.
 
-Illustrative output:
+## Real run on the bundled sample set
+
+12 invoices · 3 layouts (US / UK / EU) · one 32-line, two-page invoice · 3 with deliberate printing errors.
 
 ```
-$ invoice-extractor extract ./invoices --out out/invoices.xlsx
-┏━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ file           ┃ status ┃ invoice #      ┃        total ┃ issues                                            ┃
-┡━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ invoice_07.pdf │ REVIEW │ KF7499         │ 5,762.28 GBP │ Line 4: 1 x 348.53 = 348.53, printed 358.53       │
-│ invoice_10.pdf │ OK     │ RE-2026-8484   │ 7,333.65 EUR │                                                   │
-└────────────────┴────────┴────────────────┴──────────────┴───────────────────────────────────────────────────┘
+$ invoice-extractor extract samples --out out/samples.xlsx --truth samples/truth
+┏━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ file           ┃ status ┃ invoice #    ┃ total          ┃ issues                                                       ┃
+┡━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ invoice_01.pdf │ OK     │ INV-7386     │ 1,049.38 USD   │                                                              │
+│ invoice_02.pdf │ OK     │ INV-9225     │ 7,513.89 USD   │                                                              │
+│ invoice_03.pdf │ REVIEW │ INV-9863     │ 10,342.01 USD  │ Subtotal + tax + shipping = 10337.01, total printed 10342.01 │
+│ invoice_04.pdf │ OK     │ INV-5546     │ 570,413.11 USD │                                                              │
+│ invoice_05.pdf │ OK     │ KF8628       │ 12,385.52 GBP  │                                                              │
+│ invoice_06.pdf │ OK     │ KF9819       │ 15,309.33 GBP  │                                                              │
+│ invoice_07.pdf │ REVIEW │ KF7499       │ 5,762.28 GBP   │ Line 4: 1 x 348.53 = 348.53, printed 358.53                  │
+│ invoice_08.pdf │ OK     │ KF7397       │ 5,687.64 GBP   │                                                              │
+│ invoice_09.pdf │ OK     │ RE-2026-7209 │ 187.72 EUR     │                                                              │
+│ invoice_10.pdf │ OK     │ RE-2026-8484 │ 7,333.65 EUR   │                                                              │
+│ invoice_11.pdf │ REVIEW │ RE-2026-7490 │ 726.24 EUR     │ Subtotal + tax + shipping = 721.24, total printed 726.24     │
+│ invoice_12.pdf │ OK     │ RE-2026-7023 │ 4,837.09 EUR   │                                                              │
+└────────────────┴────────┴──────────────┴────────────────┴──────────────────────────────────────────────────────────────┘
+9 OK, 3 need review, 0 errors · claude-opus-5-5 · 41,513 input / 5,737 output tokens
+Field accuracy vs ground truth: 375/375 (100.0%)
 ```
+
+- **375 / 375 fields correct** (header fields + quantity, unit price and amount of every line), including the
+  two-page invoice, UK day-first dates and European `1.234,56 €` amounts.
+- **All 3 deliberate printing errors flagged, zero false alarms** on the 9 clean invoices.
+- **≈ $0.28 in API cost for all 12 invoices** (about 2–3 cents each) at the default effort.
 
 ## What you get
 
