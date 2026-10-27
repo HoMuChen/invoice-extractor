@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-7386",
+  "invoice_date": "2026-02-02",
+  "due_date": "2026-02-16",
+  "vendor_name": "Northwind Facility Services",
+  "vendor_address": "418 Harbor Ave, Seattle, WA 98104",
+  "customer_name": "Greenfield Clinic",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Office cleaning visit",
+      "quantity": 1.0,
+      "unit_price": 139.87,
+      "amount": 139.87
+    },
+    {
+      "description": "Brochure printing A5",
+      "quantity": 3.0,
+      "unit_price": 0.88,
+      "amount": 2.64
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 1.0,
+      "unit_price": 826.89,
+      "amount": 826.89
+    }
+  ],
+  "subtotal": 969.4,
+  "tax": 79.98,
+  "shipping": 0.0,
+  "total": 1049.38
+}

@@ -1,0 +1,27 @@
+{
+  "invoice_number": "KF8628",
+  "invoice_date": "2026-07-03",
+  "due_date": "2026-07-17",
+  "vendor_name": "Thornbury Print Co.",
+  "vendor_address": "5 Mill Lane, Leeds LS2 7EW, United Kingdom",
+  "customer_name": "Greenfield Clinic",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Logo redesign",
+      "quantity": 10.0,
+      "unit_price": 979.64,
+      "amount": 9796.4
+    },
+    {
+      "description": "On-site technician hour",
+      "quantity": 5.5,
+      "unit_price": 95.43,
+      "amount": 524.87
+    }
+  ],
+  "subtotal": 10321.27,
+  "tax": 2064.25,
+  "shipping": 0.0,
+  "total": 12385.52
+}

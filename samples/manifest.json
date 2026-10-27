@@ -1,0 +1,74 @@
+[
+  {
+    "file": "invoice_01.pdf",
+    "layout": "us",
+    "lines": 3,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_02.pdf",
+    "layout": "us",
+    "lines": 6,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_03.pdf",
+    "layout": "us",
+    "lines": 4,
+    "injected_error": "total"
+  },
+  {
+    "file": "invoice_04.pdf",
+    "layout": "us",
+    "lines": 32,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_05.pdf",
+    "layout": "uk",
+    "lines": 2,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_06.pdf",
+    "layout": "uk",
+    "lines": 5,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_07.pdf",
+    "layout": "uk",
+    "lines": 7,
+    "injected_error": "line"
+  },
+  {
+    "file": "invoice_08.pdf",
+    "layout": "uk",
+    "lines": 4,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_09.pdf",
+    "layout": "eu",
+    "lines": 3,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_10.pdf",
+    "layout": "eu",
+    "lines": 8,
+    "injected_error": null
+  },
+  {
+    "file": "invoice_11.pdf",
+    "layout": "eu",
+    "lines": 5,
+    "injected_error": "total"
+  },
+  {
+    "file": "invoice_12.pdf",
+    "layout": "eu",
+    "lines": 6,
+    "injected_error": null
+  }
+]

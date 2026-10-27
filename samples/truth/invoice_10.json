@@ -1,0 +1,63 @@
+{
+  "invoice_number": "RE-2026-8484",
+  "invoice_date": "2026-08-08",
+  "due_date": null,
+  "vendor_name": "Brandt Industrietechnik GmbH",
+  "vendor_address": "Hafenstraße 21, 20457 Hamburg, Germany",
+  "customer_name": "Cobalt Robotics Inc",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Brochure printing A5",
+      "quantity": 5.0,
+      "unit_price": 0.77,
+      "amount": 3.85
+    },
+    {
+      "description": "Brochure printing A5",
+      "quantity": 250.0,
+      "unit_price": 0.85,
+      "amount": 212.5
+    },
+    {
+      "description": "Office cleaning visit",
+      "quantity": 10.0,
+      "unit_price": 148.7,
+      "amount": 1487.0
+    },
+    {
+      "description": "Website maintenance (monthly)",
+      "quantity": 5.0,
+      "unit_price": 449.11,
+      "amount": 2245.55
+    },
+    {
+      "description": "SEO audit",
+      "quantity": 1.0,
+      "unit_price": 1308.58,
+      "amount": 1308.58
+    },
+    {
+      "description": "On-site technician hour",
+      "quantity": 3.0,
+      "unit_price": 79.98,
+      "amount": 239.94
+    },
+    {
+      "description": "Photography session",
+      "quantity": 1.0,
+      "unit_price": 530.73,
+      "amount": 530.73
+    },
+    {
+      "description": "Business cards (box of 500)",
+      "quantity": 3.0,
+      "unit_price": 40.66,
+      "amount": 121.98
+    }
+  ],
+  "subtotal": 6150.13,
+  "tax": 1168.52,
+  "shipping": 15.0,
+  "total": 7333.65
+}

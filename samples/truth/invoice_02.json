@@ -1,0 +1,51 @@
+{
+  "invoice_number": "INV-9225",
+  "invoice_date": "2026-02-16",
+  "due_date": "2026-03-02",
+  "vendor_name": "Northwind Facility Services",
+  "vendor_address": "418 Harbor Ave, Seattle, WA 98104",
+  "customer_name": "Atlas Coworking",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "SEO audit",
+      "quantity": 2.0,
+      "unit_price": 1280.52,
+      "amount": 2561.04
+    },
+    {
+      "description": "On-site technician hour",
+      "quantity": 5.5,
+      "unit_price": 94.23,
+      "amount": 518.26
+    },
+    {
+      "description": "Office cleaning visit",
+      "quantity": 5.0,
+      "unit_price": 131.94,
+      "amount": 659.7
+    },
+    {
+      "description": "Website maintenance (monthly)",
+      "quantity": 5.0,
+      "unit_price": 466.31,
+      "amount": 2331.55
+    },
+    {
+      "description": "Business cards (box of 500)",
+      "quantity": 10.0,
+      "unit_price": 41.6,
+      "amount": 416.0
+    },
+    {
+      "description": "On-site technician hour",
+      "quantity": 4.5,
+      "unit_price": 95.91,
+      "amount": 431.59
+    }
+  ],
+  "subtotal": 6918.14,
+  "tax": 570.75,
+  "shipping": 25.0,
+  "total": 7513.89
+}

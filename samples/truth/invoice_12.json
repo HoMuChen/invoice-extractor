@@ -1,0 +1,51 @@
+{
+  "invoice_number": "RE-2026-7023",
+  "invoice_date": "2026-05-18",
+  "due_date": null,
+  "vendor_name": "Lumen Atelier SARL",
+  "vendor_address": "9 Rue des Tanneurs, 69001 Lyon, France",
+  "customer_name": "Oakridge Property Group",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Hydraulic seal kit",
+      "quantity": 5.0,
+      "unit_price": 24.18,
+      "amount": 120.9
+    },
+    {
+      "description": "Consulting hours",
+      "quantity": 3.5,
+      "unit_price": 85.71,
+      "amount": 299.98
+    },
+    {
+      "description": "Replacement air filter MERV 13",
+      "quantity": 3.0,
+      "unit_price": 17.9,
+      "amount": 53.7
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 3.0,
+      "unit_price": 934.31,
+      "amount": 2802.93
+    },
+    {
+      "description": "Data migration",
+      "quantity": 1.0,
+      "unit_price": 657.56,
+      "amount": 657.56
+    },
+    {
+      "description": "Hydraulic seal kit",
+      "quantity": 5.0,
+      "unit_price": 21.74,
+      "amount": 108.7
+    }
+  ],
+  "subtotal": 4043.77,
+  "tax": 768.32,
+  "shipping": 25.0,
+  "total": 4837.09
+}

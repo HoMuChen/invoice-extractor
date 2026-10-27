@@ -1,0 +1,39 @@
+{
+  "invoice_number": "KF7397",
+  "invoice_date": "2026-07-09",
+  "due_date": "2026-07-23",
+  "vendor_name": "Kestrel & Finch Ltd",
+  "vendor_address": "12 Albion Road, Bristol BS1 4QX, United Kingdom",
+  "customer_name": "Atlas Coworking",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Business cards (box of 500)",
+      "quantity": 1.0,
+      "unit_price": 39.89,
+      "amount": 39.89
+    },
+    {
+      "description": "Website maintenance (monthly)",
+      "quantity": 1.0,
+      "unit_price": 417.32,
+      "amount": 417.32
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 5.0,
+      "unit_price": 847.69,
+      "amount": 4238.45
+    },
+    {
+      "description": "Hydraulic seal kit",
+      "quantity": 1.0,
+      "unit_price": 23.21,
+      "amount": 23.21
+    }
+  ],
+  "subtotal": 4718.87,
+  "tax": 943.77,
+  "shipping": 25.0,
+  "total": 5687.64
+}

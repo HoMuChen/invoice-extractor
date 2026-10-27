@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-9863",
+  "invoice_date": "2026-03-08",
+  "due_date": "2026-04-07",
+  "vendor_name": "Northwind Facility Services",
+  "vendor_address": "418 Harbor Ave, Seattle, WA 98104",
+  "customer_name": "Maple & Co. Bakery",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Replacement air filter MERV 13",
+      "quantity": 5.0,
+      "unit_price": 18.65,
+      "amount": 93.25
+    },
+    {
+      "description": "Data migration",
+      "quantity": 1.0,
+      "unit_price": 663.73,
+      "amount": 663.73
+    },
+    {
+      "description": "Delivery pallet",
+      "quantity": 250.0,
+      "unit_price": 34.78,
+      "amount": 8695.0
+    },
+    {
+      "description": "Server hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 74.13,
+      "amount": 74.13
+    }
+  ],
+  "subtotal": 9526.11,
+  "tax": 785.9,
+  "shipping": 25.0,
+  "total": 10342.01
+}

@@ -1,0 +1,45 @@
+{
+  "invoice_number": "KF9819",
+  "invoice_date": "2026-09-06",
+  "due_date": "2026-09-20",
+  "vendor_name": "Kestrel & Finch Ltd",
+  "vendor_address": "12 Albion Road, Bristol BS1 4QX, United Kingdom",
+  "customer_name": "Oakridge Property Group",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Logo redesign",
+      "quantity": 2.0,
+      "unit_price": 816.63,
+      "amount": 1633.26
+    },
+    {
+      "description": "Consulting hours",
+      "quantity": 5.5,
+      "unit_price": 96.64,
+      "amount": 531.52
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 10.0,
+      "unit_price": 877.17,
+      "amount": 8771.7
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 1.0,
+      "unit_price": 859.09,
+      "amount": 859.09
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 1.0,
+      "unit_price": 941.37,
+      "amount": 941.37
+    }
+  ],
+  "subtotal": 12736.94,
+  "tax": 2547.39,
+  "shipping": 25.0,
+  "total": 15309.33
+}

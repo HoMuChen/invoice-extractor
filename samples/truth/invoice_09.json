@@ -1,0 +1,33 @@
+{
+  "invoice_number": "RE-2026-7209",
+  "invoice_date": "2026-07-11",
+  "due_date": null,
+  "vendor_name": "Lumen Atelier SARL",
+  "vendor_address": "9 Rue des Tanneurs, 69001 Lyon, France",
+  "customer_name": "Maple & Co. Bakery",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Office cleaning visit",
+      "quantity": 1.0,
+      "unit_price": 131.21,
+      "amount": 131.21
+    },
+    {
+      "description": "Hydraulic seal kit",
+      "quantity": 1.0,
+      "unit_price": 22.64,
+      "amount": 22.64
+    },
+    {
+      "description": "Brochure printing A5",
+      "quantity": 5.0,
+      "unit_price": 0.78,
+      "amount": 3.9
+    }
+  ],
+  "subtotal": 157.75,
+  "tax": 29.97,
+  "shipping": 0.0,
+  "total": 187.72
+}

@@ -1,0 +1,207 @@
+{
+  "invoice_number": "INV-5546",
+  "invoice_date": "2026-06-05",
+  "due_date": "2026-06-19",
+  "vendor_name": "Northwind Facility Services",
+  "vendor_address": "418 Harbor Ave, Seattle, WA 98104",
+  "customer_name": "Harbor View Dental",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "SEO audit",
+      "quantity": 10.0,
+      "unit_price": 1175.05,
+      "amount": 11750.5
+    },
+    {
+      "description": "Consulting hours",
+      "quantity": 1.0,
+      "unit_price": 86.76,
+      "amount": 86.76
+    },
+    {
+      "description": "Business cards (box of 500)",
+      "quantity": 5.0,
+      "unit_price": 46.05,
+      "amount": 230.25
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 250.0,
+      "unit_price": 820.59,
+      "amount": 205147.5
+    },
+    {
+      "description": "Server hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 76.79,
+      "amount": 383.95
+    },
+    {
+      "description": "Logo redesign",
+      "quantity": 1.0,
+      "unit_price": 958.84,
+      "amount": 958.84
+    },
+    {
+      "description": "Office cleaning visit",
+      "quantity": 1.0,
+      "unit_price": 152.4,
+      "amount": 152.4
+    },
+    {
+      "description": "Website maintenance (monthly)",
+      "quantity": 250.0,
+      "unit_price": 462.66,
+      "amount": 115665.0
+    },
+    {
+      "description": "Office cleaning visit",
+      "quantity": 250.0,
+      "unit_price": 133.61,
+      "amount": 33402.5
+    },
+    {
+      "description": "Consulting hours",
+      "quantity": 2.5,
+      "unit_price": 91.0,
+      "amount": 227.5
+    },
+    {
+      "description": "Photography session",
+      "quantity": 10.0,
+      "unit_price": 567.94,
+      "amount": 5679.4
+    },
+    {
+      "description": "Photography session",
+      "quantity": 2.0,
+      "unit_price": 477.02,
+      "amount": 954.04
+    },
+    {
+      "description": "Data migration",
+      "quantity": 2.0,
+      "unit_price": 672.32,
+      "amount": 1344.64
+    },
+    {
+      "description": "Server hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 73.91,
+      "amount": 73.91
+    },
+    {
+      "description": "Brochure printing A5",
+      "quantity": 2.0,
+      "unit_price": 0.78,
+      "amount": 1.56
+    },
+    {
+      "description": "Delivery pallet",
+      "quantity": 250.0,
+      "unit_price": 37.56,
+      "amount": 9390.0
+    },
+    {
+      "description": "Server hosting (monthly)",
+      "quantity": 250.0,
+      "unit_price": 75.84,
+      "amount": 18960.0
+    },
+    {
+      "description": "Delivery pallet",
+      "quantity": 2.0,
+      "unit_price": 35.51,
+      "amount": 71.02
+    },
+    {
+      "description": "Delivery pallet",
+      "quantity": 2.0,
+      "unit_price": 37.44,
+      "amount": 74.88
+    },
+    {
+      "description": "Server hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 77.64,
+      "amount": 77.64
+    },
+    {
+      "description": "Data migration",
+      "quantity": 2.0,
+      "unit_price": 641.04,
+      "amount": 1282.08
+    },
+    {
+      "description": "Consulting hours",
+      "quantity": 2.0,
+      "unit_price": 91.3,
+      "amount": 182.6
+    },
+    {
+      "description": "Photography session",
+      "quantity": 250.0,
+      "unit_price": 472.5,
+      "amount": 118125.0
+    },
+    {
+      "description": "Website maintenance (monthly)",
+      "quantity": 3.0,
+      "unit_price": 461.37,
+      "amount": 1384.11
+    },
+    {
+      "description": "Office cleaning visit",
+      "quantity": 5.0,
+      "unit_price": 140.97,
+      "amount": 704.85
+    },
+    {
+      "description": "Brochure printing A5",
+      "quantity": 10.0,
+      "unit_price": 0.82,
+      "amount": 8.2
+    },
+    {
+      "description": "Hydraulic seal kit",
+      "quantity": 1.0,
+      "unit_price": 21.37,
+      "amount": 21.37
+    },
+    {
+      "description": "Delivery pallet",
+      "quantity": 1.0,
+      "unit_price": 35.95,
+      "amount": 35.95
+    },
+    {
+      "description": "Brochure printing A5",
+      "quantity": 2.0,
+      "unit_price": 0.8,
+      "amount": 1.6
+    },
+    {
+      "description": "Business cards (box of 500)",
+      "quantity": 10.0,
+      "unit_price": 43.25,
+      "amount": 432.5
+    },
+    {
+      "description": "Hydraulic seal kit",
+      "quantity": 5.0,
+      "unit_price": 21.99,
+      "amount": 109.95
+    },
+    {
+      "description": "Replacement air filter MERV 13",
+      "quantity": 1.0,
+      "unit_price": 20.02,
+      "amount": 20.02
+    }
+  ],
+  "subtotal": 526940.52,
+  "tax": 43472.59,
+  "shipping": 0.0,
+  "total": 570413.11
+}
